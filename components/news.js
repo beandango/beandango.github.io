@@ -8,7 +8,7 @@ class News extends HTMLElement {
           <div class="box">
           <h1>Latest News!</h1>
             <div class="inner">
-              
+              <h2>Debut announcement soon! But first... </h2>
               <p>"One Trick Pony" out now on all major streaming platforms!
               </p>
               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6rBy8i2Tjiwjo3W51tk8hN?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>  
