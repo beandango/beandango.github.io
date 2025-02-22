@@ -48,7 +48,12 @@
   <h1>Try to reach 20 points!!!</h1>
   <canvas id="gameCanvas" width="400" height="400"></canvas>
   <div id="score">Score: 0</div>
+  <div class="controls" style="text-align: center;">
+    Use WASD to move on desktop <br>
+    On mobile, swipe up, down, left, or right within the game window :)
+  </div>
   <div id="gameOver">Game Over! <br> Refresh to start again :p</div>
+  <button onclick="giveUp()">Give up?</button>
   <div id="dango">
     <p>YAY!!! This is fun!!!<br><br>
     But... a promise is a promise. I'll tell you everything. 
@@ -177,6 +182,15 @@
       gameOver = true;
       clearInterval(gameInterval);
       gameOverMsg.style.visibility = "visible";
+    }
+
+    function giveUp() {
+      score = 20;
+    // Update the onscreen text
+    scoreDisplay.textContent = "Score: " + score;
+
+    // Make the dango message visible if you'd like
+    dangoMsg.style.visibility = "visible";
     }
 
     // -------------------
