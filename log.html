@@ -27,6 +27,15 @@
           font-size: 1.2rem;
           cursor: pointer;
         }
+        .skip-button {
+          position: absolute;
+          top: 100%;
+          left: 0%;
+          transform: translate(-50%, -50%);
+          padding: 15px 30px;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -34,6 +43,8 @@
 
     <!-- The audio element (no autoplay, so the user must click the button) -->
     <audio id="bgAudio" src="ohboy.mp3"></audio>
+
+    <button class="skip-button" onclick='window.location.href = "letsplayagame.html";'>Skip</button>
 
     <script>
         const audio = document.getElementById('bgAudio');
