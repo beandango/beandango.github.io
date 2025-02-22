@@ -74,6 +74,13 @@ class Sidebar extends HTMLElement {
                   Strawpage | Give me fun doodles!!!
                 </button>
               </a>
+              <a href="https://throne.com/hajimedangovt/collections" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                  Throne | Send gifts if you'd like uwu
+                </button>
+              </a>
             </div>
           </div>
         </div>
