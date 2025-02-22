@@ -178,6 +178,9 @@ class Sidebar extends HTMLElement {
         <b>SUBJECT:</b> Hajime Dango <br>
         <b>GENDER:</b> Female<br>
         <b>AGE:</b> 24
+        <b>Fanname:</b> RATS
+        <b>OshiMark:</b> 🐾🐍
+        <b>Art tag:</b> #dangogh, #dangonewild 🔞
       </p>
     </div>
   </div>
@@ -187,10 +190,11 @@ class Sidebar extends HTMLElement {
       <ul>
         <li>Snakes</li>
         <li>Cats</li>
-        <li>Music, digital art</li>
+        <li>Making covers, music, digital art, video editing</li>
         <li>Anime (She has a MAL <a href="https://myanimelist.net/animelist/beanDango">here!</a>!)</li>
-        <li>Rats</li>
         <li>Japanese language and weeb shit</li>
+        <li>Retro, Zelda, story-rich, and rhythm games!</li>
+        <li>Rats</li>
       </ul>
     </div>
   </div>`;
