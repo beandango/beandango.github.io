@@ -2,46 +2,25 @@ class Sidebar extends HTMLElement {
     constructor() {
       super();
     }
+
+    
   
     connectedCallback() {
       this.innerHTML = `
     <div class="box">
     <h1>Directory</h1>
     <div class="inner">
-
       <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <a href="index.html">
-              <button 
-              class="accordion-button no-arrow" 
-              type="button" style="background-color: #FFF;">
-                Home
-              </button>
-            </a>
-          </h2>
-          <div 
-            id="collapseOne" 
-            class="accordion-collapse collapse"
-          >
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <a href="https://bizren.moe" target="_blank">
-              <button 
-              class="accordion-button no-arrow" 
-              type="button" style="background-color: #FFF;">
-                Bizren Site
-              </button>
-            </a>
-          </h2>
-          <div 
-            id="collapseOne" 
-            class="accordion-collapse collapse"
-          >
-          </div>
-        </div>
+        <a href="index.html">
+            <img src="img/dango_stamp.png" alt="">
+          </a>
+        <a href="https://cherripa.bizren.moe" target="_blank">
+          <img src="img/cherry_stamp.png" alt="">
+        </a>
+        <a href="https://bizren.moe" target="_blank">
+            <img src="img/hub_stamp.png" alt="">
+        </a>
+        
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button 
@@ -88,7 +67,7 @@ class Sidebar extends HTMLElement {
                   VGen
                 </button>
               </a>
-              <a href="https://beandango.straw.page/" target="_blank">
+              <a href="https://hajimedango.straw.page" target="_blank">
                 <button 
                 class="accordion-button no-arrow" 
                 type="button" style="background-color: #FFF;">
@@ -177,10 +156,10 @@ class Sidebar extends HTMLElement {
       <p>
         <b>SUBJECT:</b> Hajime Dango <br>
         <b>GENDER:</b> Female<br>
-        <b>AGE:</b> 24
-        <b>Fanname:</b> RATS
-        <b>OshiMark:</b> 🐾🐍
-        <b>Art tag:</b> #dangogh, #dangonewild 🔞
+        <b>AGE:</b> 24 <br>
+        <b>Fanname:</b> RATS <br>
+        <b>OshiMark:</b> 🐾🐍 <br>
+        <b>Art tag:</b> #dangogh <br>
       </p>
     </div>
   </div>
