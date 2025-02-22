@@ -8,12 +8,15 @@ class News extends HTMLElement {
           <div class="box">
           <h1>Latest News!</h1>
             <div class="inner">
-              <h2>Debut announcement soon! But first... </h2>
-              <p>"One Trick Pony" out now on all major streaming platforms!
+              <h2>Debut On March 8, 2025!!!</h2>
+              <p>
+                Cherry and I will be debuting our new group BIZARRE RENAISSANCE on March 8th! <br><br>
+                <b>Featuring: </b> <br><br>
+                1 new original song <br>
+                2 new covers <br>
+                3 new interactive websites with fun secrets and lore <b>(You can reach all of them by clicking the cute stamps at the top of the sidebar!)</b>  <br><br>
+                More info to come in the coming days!
               </p>
-              <iframe width="50%" height="300" src="https://www.youtube.com/embed/33UaiPcuNi8?si=Vd-NRXOk9554dDVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <br> 
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6rBy8i2Tjiwjo3W51tk8hN?utm_source=generator&theme=0" width="50%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
             
             </div>
           </div>
