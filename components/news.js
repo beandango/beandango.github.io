@@ -8,16 +8,7 @@ class News extends HTMLElement {
           <div class="box">
           <h1>Latest News!</h1>
             <div class="inner">
-              <h2>Debut On March 8, 2025!!!</h2>
-              <p>
-                Cherry and I will be debuting our new group BIZARRE RENAISSANCE on March 8th! <br><br>
-                <b>Featuring: </b> <br><br>
-                1 new original song <br>
-                2 new covers <br>
-                3 new interactive websites with fun secrets and lore <b>(You can reach all of them by clicking the cute stamps at the top of the sidebar!)</b>  <br><br>
-                More info to come in the coming days!
-              </p>
-            
+              <iframe src="https://violet-yew-0ab.notion.site/ebd/1a5edb622704806eba3beeaea25dd9dd" width="100%" height="600" frameborder="0" allowfullscreen />
             </div>
           </div>
         `;
