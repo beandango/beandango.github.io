@@ -1,4 +1,9 @@
-
+html, body {
+  margin: 0;
+  padding: 0;
+  /* Let’s give the body a height, then use flex to stretch the page wrapper. */
+  height: 100%;
+}
 
 body {
 margin: 0;
@@ -8,6 +13,9 @@ background-size: cover;
 line-height: 133%;
 font-size: 0.98em;
 font-family: "Open Sans", "Droid Sans", "Calibri", sans-serif;
+flex-direction: column;
+height: 100%;
+display: flex;
 }
 
 
@@ -120,17 +128,23 @@ height: 100%;
 overflow: hidden;
 }
 
-/*Contains the main content and sidebar.*/
 .page-wrapper {
-padding: 0 100px;
-margin: 0 auto;
+  /* Make the page wrapper fill available vertical space (pushing the footer down). */
+  flex: 1;
+
+  /* Turn on flexbox for the wrapper so the sidebar and main area can sit side-by-side. */
+  display: flex;
+  flex-direction: row;
+
+  /* Your existing margins/padding: */
+  padding: 0 100px;
+  margin: 0 auto;
 }
 
 /*Contains the sidebar boxes.*/
 .sidebar {
-width: 320px;
-margin: 50px 0;
-position: absolute;
+  width: 320px;
+  margin: 50px 0;
 }
 
 .sidebar h1, .box h1 {
@@ -147,9 +161,10 @@ display: inline-block;
 
 /*Contains main content boxes.*/
 .main {
-margin: 50px 100px 10px 350px;
+  margin: 50px 50px 10px 50px;
 width: auto;
 width: calc(100vw - 550px);
+flex: 1;
 }
 
 
@@ -178,11 +193,13 @@ overflow: hidden; /*Force inner divs to conform to rounded corners.*/
 
 /*Footer section.*/
 .footer {
-background: #050005;
-color: #fff;
-padding: 5px 20px;
-font-size: 0.75em;
-padding-bottom: 10px;
+  /* Because .page-wrapper uses flex: 1, 
+     the footer just sits at the bottom after .page-wrapper grows with content. */
+  background: #050005;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 0.75em;
+  padding-bottom: 10px;
 }
 
 .footer a {

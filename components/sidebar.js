@@ -81,6 +81,13 @@ class Sidebar extends HTMLElement {
                   Throne | Send gifts if you'd like uwu
                 </button>
               </a>
+              <a href="http://dangoblog.bizren.moe" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Notion | Blog
+                </button>
+              </a>
             </div>
           </div>
         </div>
