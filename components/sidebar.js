@@ -20,6 +20,9 @@ class Sidebar extends HTMLElement {
         <a href="https://bizren.moe" target="_blank">
             <img src="img/hub_stamp.png" alt="">
         </a>
+        <a href="blog.html">
+            <img src="img/blog_stamp.png" alt="">
+          </a>
         
         <div class="accordion-item">
           <h2 class="accordion-header">
