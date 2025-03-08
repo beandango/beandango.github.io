@@ -263,8 +263,6 @@ vertical-align: top;
   margin-top: 30px;
   margin-bottom: 30px;
   }
-  
-  
 }
 
 /***
@@ -305,6 +303,28 @@ your own title.
   margin: 0 auto;
   }
 }
+@media (max-width: 800px) {
+  .page-wrapper {
+    display: block; /* prevents .sidebar and .main from going side-by-side */
+  }
+
+  /* You can override any special widths/padding you had for .sidebar and .main: */
+  .sidebar,
+  .main {
+    width: auto; 
+    margin: 0 auto;
+  }
+
+  .sidebar {
+    margin-top: 50px; /* push down from the top if you want some spacing */
+  }
+
+  .main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
 
 .spacer {
     height: 200px;
