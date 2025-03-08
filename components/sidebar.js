@@ -175,7 +175,7 @@ class Sidebar extends HTMLElement {
         <b>GENDER:</b> Female<br>
         <b>AGE:</b> 24 <br>
         <b>Fanname:</b> RATS <br>
-        <b>OshiMark:</b> 🐾🐍 <br>
+        <b>OshiMark:</b> 👁️🍏 <br>
         <b>Art tag:</b> #dangogh <br>
       </p>
     </div>
