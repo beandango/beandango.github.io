@@ -20,7 +20,7 @@ class Sidebar extends HTMLElement {
         <a href="https://bizren.moe" target="_blank">
             <img src="img/hub_stamp.png" alt="">
         </a>
-        <a href="blog.html">
+        <a href="https://violet-yew-0ab.notion.site/aaaaaaa-1a5edb62270480568408f962e6a4de51" target="_blank">
             <img src="img/blog_stamp.png" alt="">
           </a>
         
