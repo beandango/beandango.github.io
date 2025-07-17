@@ -21,13 +21,13 @@ class Sidebar extends HTMLElement {
             <img src="img/hub_stamp.png" alt="">
         </a>
         <a href="https://violet-yew-0ab.notion.site/aaaaaaa-1a5edb62270480568408f962e6a4de51" target="_blank">
-            <img src="img/blog_stamp.png" alt="">
+            <img src="img/blog_stamp.png" alt="" style="border: 1px solid black;">
           </a>
-        <a href="https://streamlabs.com/beandango/merch" target="_blank">
-            <img src="img/merch_stamp.png" alt="">
+        <a href="https://bizren.moe/#dango" target="_blank">
+            <img src="img/merch_stamp.png" alt="" style="border: 1px solid black;">
           </a>
           <a href="https://ko-fi.com/hajimedangovt" target="_blank">
-            <img src="img/dono_stamp.png" alt="">
+            <img src="img/dono_stamp.png" alt="" style="border: 1px solid black;">
           </a>
         
         <div class="accordion-item">
