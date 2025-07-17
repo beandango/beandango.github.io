@@ -179,7 +179,7 @@ class Sidebar extends HTMLElement {
       <p>
         <b>SUBJECT:</b> Hajime Dango <br>
         <b>GENDER:</b> Female<br>
-        <b>AGE:</b> 24 <br>
+        <b>AGE:</b> 25 <br>
         <b>Fanname:</b> RATS <br>
         <b>OshiMark:</b> 👁️🍏 <br>
         <b>Art tag:</b> #dangogh <br>
