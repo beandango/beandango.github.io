@@ -23,6 +23,12 @@ class Sidebar extends HTMLElement {
         <a href="https://violet-yew-0ab.notion.site/aaaaaaa-1a5edb62270480568408f962e6a4de51" target="_blank">
             <img src="img/blog_stamp.png" alt="">
           </a>
+        <a href="https://streamlabs.com/beandango/merch" target="_blank">
+            <img src="img/merch_stamp.png" alt="">
+          </a>
+          <a href="https://ko-fi.com/hajimedangovt" target="_blank">
+            <img src="img/dono_stamp.png" alt="">
+          </a>
         
         <div class="accordion-item">
           <h2 class="accordion-header">
