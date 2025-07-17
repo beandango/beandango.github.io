@@ -182,7 +182,7 @@ class Sidebar extends HTMLElement {
         <b>AGE:</b> 25 <br>
         <b>Fanname:</b> RATS <br>
         <b>OshiMark:</b> 👁️🍏 <br>
-        <b>Art tag:</b> #dangogh <br>
+        <b>Art tag:</b> <a href="https://bsky.app/hashtag/dangogh" target="_blank">#dangogh</a> <br>
       </p>
     </div>
   </div>
