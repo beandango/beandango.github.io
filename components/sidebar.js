@@ -48,6 +48,13 @@ class Sidebar extends HTMLElement {
             class="accordion-collapse collapse"
           >
             <div class="accordion-body">
+            <a href="mailto:HajimeDangoVT@proton.me" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Email | Business Inquiries
+                </button>
+              </a>
               <a href="https://bsky.app/profile/hajimedango.bizren.moe" target="_blank">
                 <button 
                 class="accordion-button no-arrow" 
