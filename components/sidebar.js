@@ -12,22 +12,46 @@ class Sidebar extends HTMLElement {
     <div class="inner">
       <div class="accordion" id="accordionExample">
         <a href="index.html">
-            <img src="img/dango_stamp.png" alt="">
+            <img src="img/dango_stamp.png" title="Home" alt="Home">
           </a>
         <a href="https://cherripa.bizren.moe" target="_blank">
-          <img src="img/cherry_stamp.png" alt="">
+          <img src="img/cherry_stamp.png" title="Cherripa" alt="Cherripa">
         </a>
         <a href="https://bizren.moe" target="_blank">
-            <img src="img/hub_stamp.png" alt="">
+            <img src="img/hub_stamp.png" title="Bizarre Renaissance" alt="Bizarre Renaissance">
         </a>
+        <a href="https://youtube.com/@hajimedangovt" target="_blank">
+            <img src="img/YT_stamp.png" title="Youtube" alt="Youtube" style="border: 1px solid black;">
+          </a>
+          <a href="https://bsky.app/profile/hajimedango.bizren.moe" target="_blank">
+            <img src="img/bs_stamp.png" title="BlueSky" alt="BlueSky" style="border: 1px solid black;">
+          </a>
+          <a href="https://x.com/HajimeDangoVT" target="_blank">
+            <img src="img/twitter_stamp.png" title="Twitter/X" alt="Twitter/X" style="border: 1px solid black;">
+          </a>
+          <a href="https://discord.gg/d6ByZfC8gZ" target="_blank">
+            <img src="img/discord_stamp.png" title="Discord" alt="Discord" style="border: 1px solid black;">
+          </a>
+          <a href="https://vgen.co/hajimedangovt" target="_blank">
+            <img src="img/vgen_stamp.png" title="VGen/commissions" alt="VGen/commissions" style="border: 1px solid black;">
+          </a>
+          <a href="https://hajimedango.straw.page" target="_blank">
+            <img src="img/sp_stamp.png" title="Straw Page" alt="Straw Page" style="border: 1px solid black;">
+          </a>
+          <a href="https://throne.com/hajimedangovt/collections" target="_blank">
+            <img src="img/throne_stamp.png" title="Throne" alt="Throne" style="border: 1px solid black;">
+          </a>
+          <a href="mailto:HajimeDangoVT@bizren.moe" target="_blank">
+            <img src="img/email_stamp.png" title="Email/business inquiries" alt="Email/business inquiries" style="border: 1px solid black;">
+          </a>
         <a href="https://violet-yew-0ab.notion.site/aaaaaaa-1a5edb62270480568408f962e6a4de51" target="_blank">
-            <img src="img/blog_stamp.png" alt="" style="border: 1px solid black;">
+            <img src="img/blog_stamp.png" title="Blog" alt="Blog" style="border: 1px solid black;">
           </a>
         <a href="https://bizren.moe/#dango" target="_blank">
-            <img src="img/merch_stamp.png" alt="" style="border: 1px solid black;">
+            <img src="img/merch_stamp.png" title="Merch" alt="Merch" style="border: 1px solid black;">
           </a>
           <a href="https://ko-fi.com/hajimedangovt" target="_blank">
-            <img src="img/dono_stamp.png" alt="" style="border: 1px solid black;">
+            <img src="img/dono_stamp.png" title="Donoations" alt="Donoations" style="border: 1px solid black;">
           </a>
         
         <div class="accordion-item">
@@ -40,7 +64,7 @@ class Sidebar extends HTMLElement {
               aria-expanded="false" 
               aria-controls="collapseTwo"
             >
-              Links
+              Other Links
             </button>
           </h2>
           <div 
@@ -48,62 +72,14 @@ class Sidebar extends HTMLElement {
             class="accordion-collapse collapse"
           >
             <div class="accordion-body">
-            <a href="mailto:HajimeDangoVT@proton.me" target="_blank">
+              <a href="#" target="_blank">
                 <button 
                 class="accordion-button no-arrow" 
                 type="button" style="background-color: #FFF;">
-                Email | Business Inquiries
+                  Nothing here!
                 </button>
               </a>
-              <a href="https://bsky.app/profile/hajimedango.bizren.moe" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                Bluesky | Endless rambling
-                </button>
-              </a>
-              <a href="https://youtube.com/@hajimedangovt" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                  Youtube | I stream and posts my covers here!
-                </button>
-              </a>
-              <a href="https://discord.gg/d6ByZfC8gZ" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                  Discord | pls join im so lonely
-                </button>
-              </a>
-              <a href="https://vgen.co/beandango" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                  VGen
-                </button>
-              </a>
-              <a href="https://hajimedango.straw.page" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                  Strawpage | Give me fun doodles!!!
-                </button>
-              </a>
-              <a href="https://throne.com/hajimedangovt/collections" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                  Throne | Send gifts if you'd like uwu
-                </button>
-              </a>
-              <a href="http://dangoblog.bizren.moe" target="_blank">
-                <button 
-                class="accordion-button no-arrow" 
-                type="button" style="background-color: #FFF;">
-                Notion | Blog
-                </button>
-              </a>
+              
             </div>
           </div>
         </div>
@@ -172,6 +148,34 @@ class Sidebar extends HTMLElement {
                 class="accordion-button no-arrow" 
                 type="button" style="background-color: #FFF;">
                 Bluesky banner: Valeforzero
+                </button>
+              </a>
+              <a href="https://vgen.co/jaypeg" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Daki art: Jaypeg
+                </button>
+              </a>
+              <a href="https://vgen.co/NovaYStudio" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Bunny girl mousepads: NovaYStudio
+                </button>
+              </a>
+              <a href="https://vgen.co/NikkiGZ" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Schedule template: NikkiGZ
+                </button>
+              </a>
+              <a href="https://vgen.co/mavros_15rs" target="_blank">
+                <button 
+                class="accordion-button no-arrow" 
+                type="button" style="background-color: #FFF;">
+                Ref sheet template: mavros_15rs
                 </button>
               </a>
             </div>

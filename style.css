@@ -427,6 +427,7 @@ color: #cfe2ff;
   width: 100%;
   height: auto;
   display: block; 
+  margin: 10px 0px;
 }
 .accordion a img:hover{
   opacity: 60%;
